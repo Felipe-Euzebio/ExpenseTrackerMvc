@@ -20,6 +20,9 @@ namespace ExpenseTrackerMvc
 
             var app = builder.Build();
 
+            //Register Syncfusion license
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NAaF1cXmhLYVF+WmFZfVpgcV9FZlZSR2Y/P1ZhSXxXdkdhWH5Zc3JWRWVcWU0=");
+
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
